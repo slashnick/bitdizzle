@@ -1,0 +1,13 @@
+[Unit]
+Description=Headless Chrome victim process %i
+
+[Service]
+ExecStart=/var/ctf/victim/victim.sh
+User=app
+Restart=always
+Type=simple
+StandardOutput=append:/var/log/victim.log
+StandardError=append:/var/log/victim.log
+
+[Install]
+WantedBy=multi-user.target

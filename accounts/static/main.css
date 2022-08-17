@@ -1,0 +1,156 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    background-color: #46b3fe;
+    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.LoginForm {
+    background-color: #fff;
+    margin: 100px auto;
+    padding: 30px;
+    width: 400px;
+}
+
+.LoginForm-title {
+    font-size: 30px;
+    margin: 20px 0 60px;
+}
+
+.LoginForm-user {
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding-top: 15px;
+    box-sizing: border-box;
+    display: block;
+    margin: 60px 0;
+    font-size: 18px;
+    outline: 0;
+    width: 100%;
+}
+
+.LoginForm-submit {
+    background-color: #6c7afe;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 0;
+    width: 200px;
+    cursor: pointer;
+}
+
+.AccountCard {
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 30px;
+    width: 550px;
+}
+
+.AccountCard-avatar {
+    background-color: #3b86cb;
+    border-radius: 50%;
+    border: 1px solid #1b468b;
+    color: #fff;
+    display: inline-block;
+    font-size: 60px;
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+}
+
+.AccountCard-title {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.AccountCard-subtitle {
+    color: #606060;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.App {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    padding: 24px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.App-icon {
+    height: 36px;
+    width: 36px;
+    vertical-align: top;
+    fill: #6c7afe;
+}
+
+.App-details {
+    flex-grow 1;
+    margin-left: 16px;
+    vertical-align: top;
+}
+
+.App-title {
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.App-subtitle {
+    font-size: 14px;
+    color: #606060;
+}
+
+.App-formmessage {
+    animation: disappear 5s forwards;
+    color: #606060;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+@keyframes disappear {
+    0%   {opacity: 1;}
+    95%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.AccountInput {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+    outline: none;
+    padding: 5px 8px;
+    width: 300px;
+}
+
+.AccountButton {
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 15px;
+    outline: none;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+.AccountButton:hover {
+    background-color: #f4f4f4;
+}

@@ -1,0 +1,65 @@
+.Journal {
+    font-family: -apple-system-ui-serif, ui-serif, 'Georgia', serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.NewEntryForm {
+    margin: 100px 0 20px;
+}
+
+.NewEntryForm-title, .NewEntryForm-body {
+    border: none;
+    display: block;
+    font-family: inherit;
+    outline: 0;
+    padding: 0;
+    resize: none;
+    width: 100%;
+}
+
+.NewEntryForm-title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 8px;
+}
+
+.NewEntryForm-body {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.NewEntryForm-save, .DeleteAllEntriesButton {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.DeleteAllEntriesButton {
+    border-color: #b00020;
+    color: #b00020;
+    margin: 20px 0 40px;
+}
+
+.JournalEntry {
+    padding: 24px 0;
+}
+
+.JournalEntry + .JournalEntry {
+    border-top: 0.5px solid #000;
+}
+
+.JournalEntry-title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 8px;
+}
+
+.JournalEntry-body {
+    font-size: 18px;
+    line-height: 24px;
+    white-space: pre-line;
+}
