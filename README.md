@@ -51,7 +51,7 @@ When a user clicks "Login with OAuth" to log into the journal:
 ### Journal
 
 The journal is a React app. The app's initial props are passed to the client
-with an inline `<script>` tag in the initiar HTML. The script stores a big
+with an inline `<script>` tag in the initial HTML. The script stores a big
 JSON object with all the initial props in a global variable.
 
 In case players make their own journals hard to use (eg. by creating `alert(1)`
